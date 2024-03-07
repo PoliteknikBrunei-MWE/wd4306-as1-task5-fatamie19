@@ -1,3 +1,10 @@
 ion-content {
+  --background: #ffffff;
+}
+
+ion-card,
+ion-card-title,
+ion-item {
   --background: white;
+  color: black;
 }
