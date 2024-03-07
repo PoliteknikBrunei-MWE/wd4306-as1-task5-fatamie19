@@ -13,5 +13,6 @@ import { IonicModule } from '@ionic/angular';
 export class PlacesPage implements OnInit {
   constructor() {}
 
+  // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
   ngOnInit() {}
 }
