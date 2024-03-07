@@ -14,5 +14,7 @@ import { RouterModule } from '@angular/router';
 export class AuthPage implements OnInit {
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    // Intentionally empty.
+  }
 }

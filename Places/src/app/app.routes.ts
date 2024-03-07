@@ -11,15 +11,12 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'auth',
-    loadComponent: () => import('./auth/auth.page').then((m) => m.AuthPage),
-  },
-  {
     path: 'places',
-    loadComponent: () => import('./places/places.page').then( m => m.PlacesPage)
+    loadComponent: () =>
+      import('./places/places.page').then((m) => m.PlacesPage),
   },
   {
     path: 'tabs',
-    loadComponent: () => import('./tabs/tabs.page').then( m => m.TabsPage)
+    loadComponent: () => import('./tabs/tabs.page').then((m) => m.TabsPage),
   },
 ];

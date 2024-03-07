@@ -8,13 +8,10 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: './places.page.html',
   styleUrls: ['./places.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule]
+  imports: [IonicModule, CommonModule, FormsModule],
 })
 export class PlacesPage implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
