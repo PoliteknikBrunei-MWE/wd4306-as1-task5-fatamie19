@@ -14,7 +14,6 @@ import { RouterModule } from '@angular/router';
 export class AuthPage implements OnInit {
   constructor() {}
 
-  ngOnInit() {
-    // Intentionally empty.
-  }
+  // eslint-disable-next-line @angular-eslint/no-empty-lifecycle-method
+  ngOnInit() {}
 }
